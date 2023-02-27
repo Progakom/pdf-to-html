@@ -1,0 +1,21 @@
+{
+  "name": "progakom/pdf-to-html",
+  "description": "Fork of https://github.com/tonchik-tm/pdf-to-html. This PHP class can convert your pdf files to html using poppler-utils.",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "pelago/emogrifier": "^5.0.0",
+    "ext-dom": "*",
+    "ext-fileinfo": "*"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "PdfToHtml": "src"
+    },
+    "psr-4": {
+      "PdfToHtml\\": "src/"
+    }
+  }
+}
